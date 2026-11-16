@@ -78,7 +78,7 @@ void simulateDay() {
         newRecoveries = infected;
     }
 
-    // dopiero teraz aktualizujemy grupy i dzien
+    // dopiero teraz aktualizuja sie grupy i dzien
     susceptible = susceptible - newInfections;
     infected = infected + newInfections - newRecoveries;
     recovered = recovered + newRecoveries;
