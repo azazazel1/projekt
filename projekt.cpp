@@ -67,7 +67,7 @@ int main() {
             showHistory(); // wyswietla historie symulacji
             break;
         case 4:
-            cout << "Goodbye!" << endl;
+            cout << "Exiting" << endl;
             break;
         default:
             cout << "Invalid option. Please choose 1, 2, 3 or 4." << endl;
